@@ -1,0 +1,13 @@
+{
+    "name": "ceasar/pastries-api",
+    "description": "API for Ceasar Pastries Expo App",
+    "type": "project",
+    "autoload": {
+        "psr-4": {
+            "App\\": "app/"
+        }
+    },
+    "require": {
+        "firebase/php-jwt": "^6.4"  # For JWT auth (recommended for mobile apps)
+    }
+}
